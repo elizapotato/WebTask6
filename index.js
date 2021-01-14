@@ -1,7 +1,7 @@
 function moveLeft(){
     document.getElementById('dog').querySelector('img').style.display = 'none';
     document.getElementById('cat').querySelector('img').style.display = '';
-    document.getElementById('dog').style.width = '100px';
+    document.getElementById('dog').style.width = '0px';
     document.getElementById('cat').style.width = '800px';
 }
 function moveBoth(){
@@ -13,7 +13,7 @@ function moveBoth(){
 function moveRight(){
     document.getElementById('cat').querySelector('img').style.display = 'none';
     document.getElementById('dog').querySelector('img').style.display = '';
-    document.getElementById('cat').style.width = '100px';
+    document.getElementById('cat').style.width = '0px';
     document.getElementById('dog').style.width = '800px';
 }
 
